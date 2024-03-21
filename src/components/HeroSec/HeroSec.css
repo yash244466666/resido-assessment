@@ -1,0 +1,182 @@
+.rose-btn {
+    background-color: #FADFE4 !important;
+}
+
+.black-txt {
+    color: #000 !important;
+}
+
+.white-txt {
+    color: #fff !important;
+}
+
+.dark-grey-bg {
+    background-color: #23252B !important;
+}
+
+/* .hero-sec-container {
+    margin: 0 1rem;
+    overflow: hidden;
+    border-radius: 2rem;
+
+} */
+
+.hero-slider img {
+    width: 100%;
+}
+
+.hero-slider {
+    padding: 0 .5rem;
+}
+
+.hero-sec-content {
+    background-color: #E6E9F2;
+    padding: 1rem 0;
+    /* margin: 0 1rem; */
+    /* overflow: hidden; */
+}
+
+.hero-card {
+    background-color: #E6E9F2 !important;
+    /* padding: 0 1rem; */
+}
+
+/* .hero-img-container {
+    width: 20rem;
+    margin: 0 auto;
+    position: relative;
+    top: -1.6rem;
+    left: -1rem;
+
+} */
+
+.hero-sec-top-btn {
+    font-size: 0.8rem;
+    padding: 0.5rem 2rem;
+    border: none;
+    font-weight: 600;
+    margin: 1rem auto 0.5rem 1rem;
+}
+
+.hero-card-main-title {
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: 0.5rem 0;
+}
+
+.artist {
+    display: flex;
+    flex-direction: row;
+    margin: 1rem 0;
+
+
+}
+
+.artist-pp {
+    width: 2rem;
+    margin: 0.22rem 0 0 0;
+}
+
+.artist-dtls {
+    margin: 0 0 0 0.5rem;
+}
+
+.hero-btm-btn2 {
+    margin: 0 0 0 0.5rem;
+    background-color: #ffffff00 !important;
+    border: 1px solid #000000 !important;
+}
+
+.hero-btm-btn {
+    font-size: 0.8rem;
+    padding: 0.5rem 2rem;
+    border: none;
+    font-weight: 600;
+    /* margin: 1rem auto 1rem 0; */
+}
+
+/* -------------------------------------------------------------- */
+/* -------------------------------------------------------------- */
+/* Screen 1200px */
+/* -------------------------------------------------------------- */
+/* -------------------------------------------------------------- */
+@media (min-width: 1200px) {
+    .hero-slider img {
+        width: 100%;
+    }
+
+    .hero-slider {
+        padding: 0 6rem;
+        margin: 0 0 -1.5rem 0;
+    }
+
+    .hero-sec-content {
+        margin: 2rem 4rem;
+        padding: 1rem ;
+        overflow: hidden;
+        border-radius: 2rem;
+    }
+
+    .hero-card {
+        display: flex; 
+        flex-direction: row-reverse;
+        /* justify-content: stretch; */
+        align-items: center;
+        
+    }
+
+    .hero-img {
+        width: 100%;
+    }
+
+
+
+    .hero-img-container {
+        width: 25%;
+        position: relative;
+        top: -1.6rem;
+        left: -12rem;
+        /* transform: translateY(-60%); */
+    }
+    .hero-sec-top-btn {
+        margin-left: 4.5rem;
+    }
+
+    .hero-card-sub-title {
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin: 0.5rem 0 -1rem 0;
+        color: #617587;
+    }
+
+    .card-text {
+        position: relative;
+        top: -1.5rem;
+        left: 4rem;
+    }
+
+    .hero-card-main-title {
+        font-size: 5rem;
+        font-weight: 800;
+        margin: 0.5rem 0;
+    }
+
+    .artist-pp {
+        width: 3rem;
+        margin: -.3em 0 0 0;
+    }
+
+    .hero-btm-btn1 {
+        padding: .5rem 4rem;
+        font-size: 1rem;
+    }
+
+    .hero-btm-btn2 {
+        padding: .5rem 2rem;
+        font-size: 1rem;
+    }
+
+
+    
+
+}

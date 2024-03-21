@@ -1,0 +1,192 @@
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.black {
+    color: #000 !important;
+
+}
+.dark-grey {
+    background-color: #23252B !important;
+}
+
+.account-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.account-card {
+    border: 1px solid #000000;
+    margin: 0.5rem 0 0 0;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    /* z-index: 100; */
+}
+
+.cardBody {
+    margin: 0.5rem 0 0 0 ;
+    border: 1px solid #00000000;
+    /* background-color: #23252B; */
+    border-radius: 0.5rem;
+    z-index: 100;
+}
+
+
+
+
+.card-title-account-img {
+    width: 15%;
+    margin: 0 0.5rem 0 0 ;
+}
+
+.signIn-img-div {
+    width: 10%;
+    margin: 0 0 0.9rem 0;
+}
+.signIn-img {
+    width: 100%;
+}
+
+.account-nfts-buy-btn {
+    border-radius: 5rem;
+    padding: 0.75rem 2rem;
+}
+
+/* -------------------------------------------------------------- */
+/* -------------------------------------------------------------- */
+/* Screen 1200px */
+/* -------------------------------------------------------------- */
+/* -------------------------------------------------------------- */
+@media (min-width: 1200px) {
+    .account-title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+    }
+    
+    .cardBody {
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin: .0rem 2rem 0 0;
+        border: 2px solid #ffffff00;
+        /* border-radius: 0.5rem; */
+        height: 70vh;
+        width: 20vw;
+        display: flex;
+    }
+    
+    .card-close-btn-container {
+        background-color: #94949432;
+        border: 1px solid #00000000;
+        border-radius: 0.5rem;
+        margin: 0rem -0.5rem 0 0;
+        padding: 0 0.29rem ;
+    
+    }
+    
+    .card-close-btn {
+        border: none;
+        background: #00000000;
+    }
+    
+    .account-card {
+        border: 2px solid #000;
+        margin: -0.3rem -0.2rem -0.2rem 0rem;
+    }
+    
+    .card-title {
+        display: flex;
+        gap: 0.5rem;
+        
+    }
+    
+    .card-title-account-img {
+        width: 1.1rem;
+    }
+    .card-title-account-copy {
+        width: 8%;
+    }
+    
+    .signIn-img-div {
+        width: 10%;
+        margin: 0 0 0.9rem 0;
+    }
+    .signIn-img {
+        width: 1.1rem;
+        margin-left: 0.2rem;
+    }   
+}
+
+
+/* -------------------------------------------------------------- */
+/* -------------------------------------------------------------- */
+/* Screen 1400px */
+/* -------------------------------------------------------------- */
+/* -------------------------------------------------------------- */
+@media (min-width: 1400px) {
+    .account-title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+    }
+    
+    .cardBody {
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin: .0rem 2rem 0 0;
+        border: 2px solid #ffffff00;
+        /* border-radius: 0.5rem; */
+        height: 70vh;
+        width: 20vw;
+        display: flex;
+    }
+    
+    .card-close-btn-container {
+        background-color: #94949432;
+        border: 1px solid #00000000;
+        border-radius: 0.5rem;
+        margin: 0rem -0.5rem 0 0;
+        padding: 0 0.29rem ;
+    
+    }
+    
+    .card-close-btn {
+        border: none;
+        background: #00000000;
+    }
+    
+    .account-card {
+        border: 2px solid #000;
+        margin: -0.3rem -0.2rem -0.2rem 0rem;
+    }
+    
+    .card-title {
+        display: flex;
+        gap: 0.5rem;
+        
+    }
+    
+    .card-title-account-img {
+        width: 10%;
+    }
+    .card-title-account-copy {
+        width: 8%;
+    }
+    
+    .signIn-img-div {
+        width: 10%;
+        margin: 0 0 0.9rem 0;
+    }
+    .signIn-img {
+        width: 100%;
+    }   
+
+}
+
+
