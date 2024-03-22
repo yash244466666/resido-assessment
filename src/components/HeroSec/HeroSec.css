@@ -56,6 +56,7 @@
     border: none;
     font-weight: 600;
     margin: 1rem auto 0.5rem 1rem;
+    z-index: 100;
 }
 
 .hero-card-main-title {
@@ -122,24 +123,25 @@
         flex-direction: row-reverse;
         /* justify-content: stretch; */
         align-items: center;
-        
+        position: relative;
+        top: -1.5rem;
+        left: 3rem;
+        background-color: #222d4d00 !important;   
     }
 
     .hero-img {
         width: 100%;
     }
 
-
-
     .hero-img-container {
         width: 25%;
         position: relative;
-        top: -1.6rem;
-        left: -12rem;
+        top: -0.0rem;
+        left: -14rem;
         /* transform: translateY(-60%); */
     }
     .hero-sec-top-btn {
-        margin-left: 4.5rem;
+        margin-left: 4rem;
     }
 
     .hero-card-sub-title {

@@ -1,0 +1,42 @@
+.footer-container {
+    background-color: #E6E9F2;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    overflow: hidden;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #E6E9F2;
+}
+
+.footer-logo img {
+    width: 100%;
+}
+
+.footer-logo { 
+    width: 8rem;
+}
+
+.social-ico img {
+    width: 100%;
+}
+
+.social-ico {
+    width: 8rem;
+}
+
+/* -------------------------------------------------------------- */
+/* -------------------------------------------------------------- */
+/* Screen 1280px */
+/* -------------------------------------------------------------- */
+/* -------------------------------------------------------------- */
+
+@media (min-width: 1280px) {
+    .footer-container {
+        padding: 1rem 10rem;
+    }
+}

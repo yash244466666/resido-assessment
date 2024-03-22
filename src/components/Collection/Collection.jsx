@@ -11,7 +11,7 @@ const Collection = (props) => {
             <div className="card round-border col-card-cont shadow ">
                 <div className="collection-card-img">
                     <div className="collection-card-img-hover">
-                        <Button className='card-buy-btn rounded-pill danger'><Link to={'/'}>{"Go Collection ->"}</Link></Button>
+                    <Link to={'/product'}className='card-buy-btn rounded-pill danger'>{'Go Collection -> '}</Link>
                     </div>
                     <img src={props.image} className="card-img-top" alt="card" />
                 </div>
