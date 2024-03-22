@@ -1,0 +1,261 @@
+.btn-bg {
+    background-color: #E1EDD9;
+}
+
+.col-card-contNFT {
+    border-radius: 1rem;
+}
+
+.collection-card-imgNFT img {
+    width: 100%;
+}
+.collection-card-imgNFT img:hover {
+    filter: brightness(0.5);
+    transition: 0.5s ease;
+    z-index: 100;
+
+}
+
+.collection-card-imgNFT {
+    width: 8em ;
+    /* height: 10rem; */
+    margin: 1rem auto;
+}
+
+.collection-card-imgNFT-hover {
+    width: 8rem;
+    height: 4.6rem;
+    border-radius: .7rem;
+    background-color: #030303b6;
+    z-index: 100;
+    position: absolute;
+    opacity: 0;
+}
+
+.collection-card-imgNFT-hover:hover {
+    /* transform: scale(1.1); */
+    opacity: 1;
+    
+    
+}
+
+.card-img-hover {
+    width: 100%;
+    height: 100%;
+    background-color: #000000b6;
+    z-index: 100;
+}
+
+.card-img-top {
+    z-index: 1;
+}
+
+.card-buy-btnNFT {
+    background-color: #ffffff !important;
+    color: #000000;
+    border: none;
+    position: relative;
+    top: 1.5em;
+    left: 1.5em;
+    padding: 0.5rem 1rem;
+    opacity: 1;
+    z-index: 100;
+    /* transition: 0.5s ease; */
+
+}
+
+/* .card-buy-btnNFT:hover {
+    opacity: 1;
+    transition: 0.5s ease;
+} */
+
+
+.collection-btnNFT {
+    padding: 0.25rem .5rem;
+    border: none;
+    color: #434b3d;
+    font-size: .5rem;
+}
+
+.collection-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.collection-card-titleNFT {
+    font-size: .55rem;
+    font-weight: 700;
+}
+
+.priceRange {
+    margin: 1rem 0;
+    color: #606060;
+}
+
+/* -------------------------------------------------------------- */
+/* -------------------------------------------------------------- */
+/* Screen 1200px */
+/* -------------------------------------------------------------- */
+/* -------------------------------------------------------------- */
+@media (min-width: 1200px) {
+    .col-card-cont {
+        padding: 0 0rem;
+    }
+
+    .collection-card-imgNFT {
+        width: 20rem;
+        margin: 1rem auto;
+    }
+  
+    .card-img-hover {
+        width: 100%;
+        height: 100%;
+        background-color: #000000b6;
+        z-index: 100;
+    }
+    
+    .card-img-top {
+        z-index: 1;
+    }
+    
+    .card-buy-btnNFT {
+        top: 5.5em;
+        left: 7.5rem;
+    }
+    
+    .card-buy-btnNFT:hover {
+        opacity: 1;
+        transition: 0.5s ease;
+    }
+    .collection-card-imgNFT-hover {
+        width: 20rem;
+        height: 11.6rem;
+        border-radius: 1.7rem;
+        background-color: #030303b6;
+        z-index: 100;
+        position: absolute;
+        opacity: 0;
+        transition: all 0.5s ease-in-out;
+    }
+    
+    .collection-card-imgNFT-hover:hover {
+        opacity: 1;
+    }
+    
+    
+    .collection-btnNFT {
+        padding: 0.25rem 2rem;
+        border: none;
+        color: #434b3d;
+        font-size: 1rem;
+    }
+    
+    .collection-title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 1rem 0;
+    }
+    
+    .collection-card-titleNFT {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    
+    .priceRange {
+        margin: 1rem 0;
+        color: #606060;
+    }
+
+    .card-text {
+       position: relative;
+        top: 0.5rem;
+        left: 0.2rem;
+
+    }
+
+}
+
+
+
+/* -------------------------------------------------------------- */
+/* -------------------------------------------------------------- */
+/* Screen 1400px */
+/* -------------------------------------------------------------- */
+/* -------------------------------------------------------------- */
+@media (min-width: 1400px) {
+ 
+    .collection-card-imgNFT {
+        width: 25rem;
+        margin: 1rem auto;
+    }
+  
+    .card-img-hover {
+        width: 100%;
+        height: 100%;
+        background-color: #000000b6;
+        z-index: 100;
+    }
+    
+    .card-img-top {
+        z-index: 1;
+    }
+    
+    .card-buy-btnNFT {
+        top: 7em;
+        left: 10em;
+    }
+    
+    .card-buy-btnNFT:hover {
+        opacity: 1;
+        transition: 0.5s ease;
+    }
+    .collection-card-imgNFT-hover {
+        width: 25rem;
+        height: 14.5rem;
+        border-radius: 2rem;
+        background-color: #030303b6;
+        z-index: 100;
+        position: absolute;
+        opacity: 0;
+        transition: all 0.5s ease-in-out;
+    }
+    
+    .collection-card-imgNFT-hover:hover {
+        opacity: 1;
+    }
+    
+    .collection-btnNFT {
+        padding: 0.25rem 2rem;
+        border: none;
+        color: #434b3d;
+    }
+    
+    .collection-title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 1rem 0;
+    }
+    
+    .collection-card-titleNFT {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    
+    .priceRange {
+        margin: 1rem 0;
+        color: #606060;
+    }
+
+    .card-text {
+       position: relative;
+        top: 0.5rem;
+        left: 0.2rem;
+
+    }
+    
+
+}
