@@ -65,6 +65,13 @@
     margin: 0.5rem 0;
 }
 
+/* .hero-card-text {
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0.5rem 0;
+    width: 20rem;
+} */
+
 .artist {
     display: flex;
     flex-direction: row;
@@ -149,6 +156,11 @@
         font-weight: 600;
         margin: 0.5rem 0 -1rem 0;
         color: #617587;
+    }
+
+    .hero-card-text {
+        width: 50rem;
+        margin: 2rem 0;
     }
 
     .card-text {

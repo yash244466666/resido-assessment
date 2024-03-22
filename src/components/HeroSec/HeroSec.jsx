@@ -1,12 +1,14 @@
+import React from 'react';
 import heroSlider from '../../res/hero-slider.svg';
 import hero from '../../res/hero.png';
 import artist1 from '../../res/hero-artist-ico.svg';
-// import Artist from '../Artist/Artist';
+import Artist from '../Artist/Artist';
+import HeroBtn from '../HeroBtn/HeroBtn';
 import './HeroSec.css';
 import {Card, Button} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
-function HeroSec(props) {
+function HeroSec({showBtn, colType, colName, colDes}) {
   return (
     <div className="hero-sec-container">
         <div className="hero-slider">
@@ -20,22 +22,12 @@ function HeroSec(props) {
                     <Card.Img style={{ width: '100%', margin: '0 auto' }} variant="top hero-img" src={hero} />
                 </div>
                 <Card.Body className='card-text'>
-                    <Card.Subtitle className='hero-card-sub-title'>{props.colType}</Card.Subtitle>
-                    <Card.Title className='hero-card-main-title'>{props.colName}</Card.Title>
-                    {/* <Artist artistPP={artist1} artistName='Léa Jacquot' /> */}
-                    <div className="artist">
-                        <div className="artist-pp">
-                            <img style={{width:"100%"}} src={artist1} alt="artist" />
-                        </div>
-                        <div className="artist-dtls">
-                            <Card.Subtitle className='title'>Artist</Card.Subtitle>
-                            <Card.Title className='artist-name'>Léa Jacquot</Card.Title>
-                        </div>
-
-                    </div>
-
-                    <Button variant=" rounded-pill black-txt dark-grey-bg white-txt hero-btm-btn hero-btm-btn1" >Buy</Button>
-                    <Button variant=" rounded-pill rose-btn black-txt hero-btm-btn hero-btm-btn2"><Link to={'/product'}>See collection</Link></Button>
+                    <Card.Subtitle className='hero-card-sub-title'>{colType}</Card.Subtitle>
+                    <Card.Title className='hero-card-main-title'>{colName}</Card.Title>
+                    <Card.Text className='hero-card-text'>{colDes}</Card.Text>
+                    <Artist artistPP={artist1} artistName='Léa Jacquot' />
+                    {showBtn && <HeroBtn />}
+                    {/* <HeroBtn /> */}
                 </Card.Body>
             </Card>
         </div>

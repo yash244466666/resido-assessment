@@ -14,7 +14,7 @@ import './Home.css';
 const Home = () => {
     return (
         <div>
-            <HeroSec colType="Night sky collection" colName="With the stars"/>
+            <HeroSec colType="Night sky collection" colName="With the stars" showBtn={true}/>
             <div className="collection ">
                 <h2 className=''>Collections</h2>
                 <div className="collection-cards">
